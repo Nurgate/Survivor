@@ -1,0 +1,85 @@
+
+.grid-container {
+    display: grid;
+    justify-content:space-between;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    gap: 10vh; 
+    height: 100vh;
+    
+    
+  }
+  
+  .grid-item-short-purple-left {
+    background-color: #722768;
+    padding: 30px;
+    color: #722768;  
+    width: 70%;
+    float: right;
+  
+    
+  }
+
+  .grid-item-short-purple-right {
+    background-color: #722768;
+    padding: 30px;
+    color: #722768;
+    width: 70%;
+    float: left;
+  }
+  
+
+  .grid-item-long-violet {
+    background-color: #614181;
+    padding: 30px;
+    color: #614181;
+    width: 100%;
+
+  }
+
+  .grid-item-short-violet {
+    background-color: #614181;
+    padding: 30px;
+    color: #614181;
+    width: 70%;
+    
+  }
+
+
+  .grid-item-short-darkblue {
+    background-color: #525093;
+    padding: 30px;
+    color: #525093;
+    width: 70%;
+    float: left;
+    
+    
+  
+  }
+
+  .grid-item-long-darkblue {
+    background-color: #525093;
+    padding: 30px;
+    color: #525093;
+    width: 110%;
+    float:left;
+    
+    
+  }
+
+  .grid-item-short-blue {
+    background-color: #355da7;
+    padding: 30px;
+    color: #355da7;
+    width: 70%;
+  }
+
+  .grid-item-long-blue {
+    background-color: #355da7;
+    padding: 30px;
+    color: #355da7;
+    width: 100%;
+    
+
+  }
+ 
